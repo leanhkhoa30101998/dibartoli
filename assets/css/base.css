@@ -1,0 +1,52 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #737373;
+}
+
+*{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main_khoi{
+    max-width: 24.3% !important;
+    margin: 3px;
+    text-align: center;
+    background-color: #f8f7f7;
+    padding: 0 0 1.5vw 0 !important;
+}
+.main_khoi:focus{
+    outline: none;
+}
+.main_khoi img{
+    margin: 5px auto;
+}
+.main_khoi-desc{
+    font-size: 1.3em;
+    color: var(--text-color);
+}
+.main_khoi-price{
+    font-size: 1.3em;
+    color: #814cb8;
+}
+.main_khoi a{
+    color: var(--white-color);
+    padding: 5px;
+    background-color: #814cb8;
+    /* margin-bottom: 20px; */
+}
+.main_khoi a:hover{
+    text-decoration: none;
+    color: var(--white-color);
+}
+.main_khoi a:focus{
+    outline: none;
+}
