@@ -82,6 +82,17 @@
     right: 5px;
     cursor: pointer;
 }
+.header-main--spcart{
+    position: relative;
+}
+.header-main--spcart p{
+    top: -5px;
+    position: absolute;
+    right: 5px;
+    padding: 0 4px;
+    background-color: #fccd5d;
+    border-radius: 30px;
+}
 
 .header-main--spcart i{
     font-size: 2em;
